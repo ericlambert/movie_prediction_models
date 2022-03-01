@@ -3,11 +3,12 @@
 ## Group Members
 
 *Please bold your name below to confirm you were able to clone and commit changes to this repo*
-Moy Patel
-Stephanie Wells
-Carlie Wade
-Nguyen Huynh
-**Eric Lambert**
+
+- Moy Patel
+- Stephanie Wells
+- Carlie Wade
+- Nguyen Huynh
+- **Eric Lambert**
 
 ## Folders
 
@@ -17,5 +18,5 @@ Nguyen Huynh
 
 ## Handy Links
 
-[This project repo on GitHub](https://github.com/ericlambert/is_635_hackathon_dry_run)
-[UCI ML Repo](https://archive.ics.uci.edu/ml/index.php)
+- [This project repo on GitHub](https://github.com/ericlambert/is_635_hackathon_dry_run)
+- [UCI ML Repo](https://archive.ics.uci.edu/ml/index.php)
