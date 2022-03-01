@@ -4,7 +4,9 @@
 
 *Please bold your name below to confirm you were able to clone and commit changes to this repo*
 
-- Moy Patel
+- **Moy Patel** "How exciting, my first shared repo work (: "
+
+![Thumbs up!](https://media4.giphy.com/media/WFyvwq3xoTTMs/giphy.gif?cid=6c09b952b9037c8f34c2c5532c08ca4b015744302b7f5d64&rid=giphy.gif&ct=g)
 - Stephanie Wells
 - Carlie Wade
 - Nguyen Huynh
