@@ -19,4 +19,5 @@
 ## Handy Links
 
 - [This project repo on GitHub](https://github.com/ericlambert/is_635_hackathon_dry_run)
+- [Blog post about collaborating via GitHub](https://medium.com/@jonathanmines/the-ultimate-github-collaboration-guide-df816e98fb67)
 - [UCI ML Repo](https://archive-beta.ics.uci.edu/)
