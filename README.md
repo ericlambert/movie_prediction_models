@@ -19,4 +19,4 @@
 ## Handy Links
 
 - [This project repo on GitHub](https://github.com/ericlambert/is_635_hackathon_dry_run)
-- [UCI ML Repo](https://archive.ics.uci.edu/ml/index.php)
+- [UCI ML Repo](https://archive-beta.ics.uci.edu/)
