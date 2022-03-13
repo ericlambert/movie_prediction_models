@@ -14,8 +14,13 @@
 
 ## Folders
 
-- _data: raw data files go here
+- _data:
+  - _raw : raw data files go here
+    - Highest Grossing Movies.csv - dataset
+    - Highest Grossing Movies.md - descriptions
+  - _processed : cleansed data ready for visualizations and analysis
 - _src: home for our .py, .ipynb, etc files
+- _visualizations: for Tableau files
 - _presentation: where we can build our presentation file(s)
 
 ## Handy Links
