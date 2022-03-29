@@ -10,6 +10,8 @@ from urllib.request import urlopen, Request
 import re
 
 def scrape_money(df):
+    # from: https://community.dataquest.io/t/web-scraping-wikipedia-with-beautifulsoup/557671
+    
     # 1. Input:
     search_query = df['title_urled']
     # 2. Put the title into wikipedia search and extract the link to the first result:(it's not the first link!!!)
