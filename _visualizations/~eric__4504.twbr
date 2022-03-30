@@ -644,10 +644,8 @@
             <column-instance column='[score]' derivation='Avg' name='[avg:score:qk]' pivot='key' type='quantitative' />
             <column caption='Budget' datatype='real' name='[budget]' role='measure' type='quantitative' />
             <column-instance column='[name]' derivation='Count' name='[cnt:name:qk]' pivot='key' type='quantitative' />
-            <column caption='Director' datatype='string' name='[director]' role='dimension' type='nominal' />
             <column caption='Gross Revenue' datatype='real' name='[gross revenue]' role='measure' type='quantitative' />
             <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
-            <column-instance column='[director]' derivation='None' name='[none:director:nk]' pivot='key' type='nominal' />
             <column-instance column='[name]' derivation='None' name='[none:name:nk]' pivot='key' type='nominal' />
             <column caption='Runtime' datatype='real' name='[runtime]' role='measure' type='quantitative' />
             <column caption='Score' datatype='real' name='[score]' role='measure' type='quantitative' />
@@ -672,14 +670,6 @@
               <bucket>&quot;[federated.1whest81cwg20310i2gzd1g6amhg].[avg:runtime:qk]&quot;</bucket>
             </dictionary>
           </manual-sort>
-          <filter class='categorical' column='[federated.1whest81cwg20310i2gzd1g6amhg].[none:director:nk]'>
-            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
-              <groupfilter direction='DESC' expression='SUM([budget])' function='order' user:ui-marker='order'>
-                <groupfilter function='level-members' level='[none:director:nk]' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-manual-selection-is-empty='true' user:ui-marker='enumerate' />
-              </groupfilter>
-            </groupfilter>
-          </filter>
-          <computed-sort column='[federated.1whest81cwg20310i2gzd1g6amhg].[none:director:nk]' direction='DESC' using='[federated.1whest81cwg20310i2gzd1g6amhg].[sum:budget:qk]' />
           <filter class='categorical' column='[federated.1whest81cwg20310i2gzd1g6amhg].[none:name:nk]'>
             <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
               <groupfilter direction='DESC' expression='SUM([gross revenue])' function='order' user:ui-marker='order'>
@@ -688,7 +678,6 @@
             </groupfilter>
           </filter>
           <slices>
-            <column>[federated.1whest81cwg20310i2gzd1g6amhg].[none:director:nk]</column>
             <column>[federated.1whest81cwg20310i2gzd1g6amhg].[:Measure Names]</column>
             <column>[federated.1whest81cwg20310i2gzd1g6amhg].[none:name:nk]</column>
           </slices>
@@ -719,7 +708,7 @@
             </style>
           </pane>
         </panes>
-        <rows>([federated.1whest81cwg20310i2gzd1g6amhg].[none:director:nk] / [federated.1whest81cwg20310i2gzd1g6amhg].[none:name:nk])</rows>
+        <rows>[federated.1whest81cwg20310i2gzd1g6amhg].[none:name:nk]</rows>
         <cols>[federated.1whest81cwg20310i2gzd1g6amhg].[:Measure Names]</cols>
       </table>
       <simple-id uuid='{8FF61609-80CE-4E45-A37E-69A876C3B429}' />
