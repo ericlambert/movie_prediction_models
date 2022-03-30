@@ -8,7 +8,7 @@
 
 ![Thumbs up!](https://media4.giphy.com/media/WFyvwq3xoTTMs/giphy.gif?cid=6c09b952b9037c8f34c2c5532c08ca4b015744302b7f5d64&rid=giphy.gif&ct=g)
 
-- **Stephanie Wells** 
+- **Stephanie Wells**
 - **Carlie Wade** "so excited to learn and make magic with yall"
 - **Nguyen Huynh** "Let's me refresh to see if it works ! It WORKED"
 - **Eric Lambert**
@@ -17,8 +17,6 @@
 
 - _data:
   - _raw : raw data files go here
-    - Highest Grossing Movies.csv - dataset
-    - Highest Grossing Movies.md - descriptions
   - _processed : cleansed data ready for visualizations and analysis
 - _src: home for our .py, .ipynb, etc files
 - _visualizations: for Tableau files
